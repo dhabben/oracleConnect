@@ -1,3 +1,5 @@
+package oracleConnect
+
 func oracleConnect() *sql.DB {
 
     user := os.Getenv("ORACLE_USER")
