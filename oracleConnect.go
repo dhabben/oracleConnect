@@ -1,6 +1,9 @@
 package oracleConnect
 
-import "os"
+import (
+    "fmt"
+    "os"
+)
 
 func OracleConnect() *sql.DB {
 
