@@ -1,6 +1,8 @@
 package oracleConnect
 
-func oracleConnect() *sql.DB {
+import "os"
+
+func OracleConnect() *sql.DB {
 
     user := os.Getenv("ORACLE_USER")
     password := os.Getenv("ORACLE_PASS")
