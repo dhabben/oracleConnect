@@ -2,6 +2,7 @@ package oracleConnect
 
 import (
     "fmt"
+    "log"
     "os"
 )
 
