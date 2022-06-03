@@ -1,4 +1,4 @@
-package oracleConnect
+package svcc-Oracle
 
 import (
     "fmt"
